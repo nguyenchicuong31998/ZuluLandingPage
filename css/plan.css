@@ -1,0 +1,98 @@
+
+
+.plan{
+    margin-top: 160px;
+}
+
+.plan-list{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+
+.plan-list-item{
+    width: calc(33.33% - 30px);
+    padding: 40px 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    transition: all 0.2s linear;
+}
+.plan-list-item:hover .plan-start{
+    background-color: var(--primary-color);
+    color: white;
+}
+.plan-label {
+    position: absolute;
+    top: 0;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    right: 0;
+    background-color: rgb(235, 106, 127);
+    padding: 10px 20px;
+    color: white;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.plan-name{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.plan-price{
+    padding-bottom: 20px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    border-bottom: 1px solid rgb(179, 178, 178);
+    margin-bottom: 20px;
+}
+.plan-number-month{
+    font-size: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.plan-symbol{
+    font-size: 1rem;
+    position: relative;
+    top:-4px;
+}
+
+.plan-desc{
+    margin-bottom: 50px;
+}
+
+.plan-features{
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+.plan-features-item{
+    display: flex;
+    align-items:  center;
+    margin-bottom: 10px;
+}
+.plan-features-item:last-of-type{
+    margin-bottom: 75px;
+}
+.plan-features-icon{
+    display: inline-block;
+    width:  40px;
+    color: rgb(169, 162, 162);
+    font-size: 25px;
+}
+
+.plan-features-title{
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.plan-start{
+    margin: auto auto 0;
+    display: block;
+    width: max-content;
+}
+

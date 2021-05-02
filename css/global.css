@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html, body{
+    width: 100%;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+    font-size: 62.5%;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{ 
+    display: block;
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 100%;
+    width: 1112px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.text{
+    color: var(--gray-color);
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.btn{
+    background-color: transparent;
+    font-size: 1.4em;
+    padding: 18px 40px;
+    cursor: pointer;
+    display: inline-block;
+    outline: none;
+    border: 0;
+    color: var(--gray-color);
+    font-weight: 500;
+    overflow: hidden;
+    transition: all .2s ease-in-out;
+}
+.btn:hover{
+    opacity: 0.7;
+}
+.btn.btn-round{
+    border-radius: 15px;
+}
+.btn.btn-outline{
+    color: var(--gray-blur);
+    border: 1px solid var(--gray-blur);
+}
+.btn.btn-primary{
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.block-box{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.block-caption{
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: 30px;
+    position: relative;
+    text-transform: uppercase;
+}
+.block-caption::before{
+    content: "";
+    width: 30px;
+    height: 3px;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: super;
+    background-color: var(--primary-color);
+}
+.block-caption::after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    display: inline-block;
+    vertical-align: super;
+    margin-left: 6px;
+    background-color: var(--primary-color);
+}
+.block-heading{
+    font-size: 2.8rem;
+    line-height: 1.4;
+}
+.block-heading span{
+    display: block;
+}
+
+.nav{
+    list-style: none;
+}
+
+.nav-item{
+    display: block;
+}
+
+.nav-item.nav-item--inline-block{
+    display: inline-block;
+}
+
+.nav-link{
+    color: black;
+    padding: 10px 0px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 1;
+    transition: opacity linear .2s;
+}
+
+.nav-link:hover{
+    opacity: 0.7;
+}
+

@@ -1,0 +1,44 @@
+
+.client{
+    margin-top: 160px;
+}
+
+.client-list{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.client-list-item{
+    width: calc(33.33% - 30px);
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    padding: 40px 30px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.client-image{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.client-title{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.client-sub-title{
+    font-size: 1rem;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(211, 209, 209);
+    margin-bottom: 20px;
+}
+
+.client-desc{
+    margin-bottom: 30px;
+}
+
+.client-start i{
+    font-size: 1.4rem;
+    color: orange;
+}

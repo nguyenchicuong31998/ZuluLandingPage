@@ -1,0 +1,22 @@
+.intro{
+    display: flex;
+    margin-top: 160px;
+    align-items: center;
+}
+.intro-content{
+    padding-right: 130px;
+}
+.intro-box{
+    text-align: left;
+    margin-bottom: 30px;
+}
+.intro-caption::after{
+  content: "";
+  display: none;
+}
+.intro-caption{
+    margin-bottom: 18px;
+}
+.intro-desc{
+    margin-bottom: 40px;
+}
